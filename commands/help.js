@@ -5,9 +5,9 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'Your Bby😩💝⁩'}*  
+   *🤖 ${settings.botName || 'Your bby'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Hᴜssᴀɪɴ 🇧🇩❤️‍🩹'}
+   by ${settings.botOwner || 'Mr Hussain'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
@@ -122,7 +122,7 @@ Join our group for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '',
-                        newsletterName: 'Mr Hussain',
+                        newsletterName: 'your bby by Mr Hussain',
                         serverMessageId: -1
                     }
                 }
@@ -136,7 +136,7 @@ Join our group for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '',
-                        newsletterName: 'Mr Hussain',
+                        newsletterName: 'your bby by Mr Hussain',
                         serverMessageId: -1
                     } 
                 }
