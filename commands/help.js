@@ -5,7 +5,7 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || '༒︎𝑌𝑂𝑈𝑅 ❥︎ 𝐵𝐴𝐵𝑌 シ︎ꨄ︎💋😩🌟⁩'}*  
+   *🤖 ${settings.botName || 'Your Bby😩💝⁩'}*  
    Version: *${settings.version || '1.0.0'}*
    by ${settings.botOwner || 'Hᴜssᴀɪɴ 〆ᬊᬁ'}
    YT : ${global.ytch}
