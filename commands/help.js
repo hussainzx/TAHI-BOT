@@ -5,9 +5,9 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || '༒︎𝑌𝑂𝑈𝑅 ❥︎ 𝐵𝐴𝐵𝑌 シ︎ꨄ︎💋😩🌟⁩'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
+   by ${settings.botOwner || 'Hᴜssᴀɪɴ 〆ᬊᬁ'}
    YT : ${global.ytch}
 ╚═══════════════════╝
 
@@ -106,7 +106,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .song <song_name>
 ╚═══════════════════╝
 
-Join our channel for updates:`;
+Join our group for updates:`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
@@ -121,8 +121,8 @@ Join our channel for updates:`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterJid: '',
+                        newsletterName: 'Mr Hussain',
                         serverMessageId: -1
                     }
                 }
@@ -135,8 +135,8 @@ Join our channel for updates:`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterJid: '',
+                        newsletterName: 'Mr Hussain',
                         serverMessageId: -1
                     } 
                 }
